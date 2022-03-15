@@ -82,7 +82,7 @@ public class VerifyTab extends Browser {
 		loginpage.sendPassword(password);
 		loginpage.clickOnKeepMeLogInCheckbox();
 		loginpage.clickOnLogin();
-		System.out.println("Login successfully");	
+		System.out.println("Login successfully on acti time");	
 		Thread.sleep(2000);
 	}
 	
