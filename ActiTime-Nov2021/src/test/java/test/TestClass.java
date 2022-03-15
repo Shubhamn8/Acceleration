@@ -33,7 +33,7 @@ public class TestClass {
 		
 		Thread.sleep(3000);
 		
-		System.out.println("Login successfully");
+		System.out.println("Login successfully on Actitime");
 		
 		ApplicationHeaderPage applicationHeaderPage= new ApplicationHeaderPage(driver);
 		applicationHeaderPage.clickOnUsers();
